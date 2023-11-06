@@ -3,10 +3,7 @@
 
 ***
 ## Overview
-I worked on a project for the Udacity Azure ML Nanodegree. In it, I created and improved a pipeline using Azure ML and the Python SDK. I built a custom model using Scikit-learn Logistic Regression and fine-tuned its hyperparameters with HyperDrive. Additionally, I used Azure AutoML to find an optimal model with the same data, allowing me to compare the results of both methods. Check out the image below to see the main steps I took in the project!
-
-![Diagram](img/Diagram.JPG?raw=true "Main Steps of the Project")
-
+I worked on a project for the Udacity Azure ML Nanodegree. In it, I created and improved a pipeline using Azure ML and the Python SDK. I built a custom model using Scikit-learn Logistic Regression and fine-tuned its hyperparameters with HyperDrive. Additionally, I used Azure AutoML to find an optimal model with the same data, allowing me to compare the results of both methods. 
 First, I set up a train script and analyzed a dataset using a custom Scikit-learn logistic regression model. In Step 2, I created a Jupyter Notebook to find the best hyperparameters for the model using HyperDrive. In Step 3, I loaded the same dataset in the notebook and used AutoML to find another optimized model. Lastly, in Step 4, I compared the results of both methods and summarized my findings in a research report, which you can find in this Readme file.
 
 ***
