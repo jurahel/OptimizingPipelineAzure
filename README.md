@@ -32,7 +32,7 @@ Now, for AutoML, I configured the run with specific parameters. The experiment h
 In summary, this pipeline involves thoughtful choices in parameter sampling, an effective early stopping policy, and a well-configured AutoML run to generate models with their corresponding hyperparameters.
 
 ## Pipeline comparison
-**Comparison of the two models and their performance. Differences in accuracy & architecture - comments**
+
 As mentioned earlier, the discrepancy in results is minor. Given additional time for the AutoML process, the resulting model would likely show significant improvement. The notable advantage lies in AutoML's ability to handle all the essential calculations, training, validations, and more autonomously, eliminating the need for manual adjustments or iterations. This sets it apart from the Scikit-learn Logistic Regression pipeline, where we have to actively make adjustments, changes, and undergo numerous trials and errors to arrive at a final model. 
 
 ## Future work
